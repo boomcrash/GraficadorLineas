@@ -8,6 +8,7 @@
         <title>GRAFICADOR DE LINEAS</title>
     </head>
     <body>
+        <!-- Grafico Lineal -->
         <div class="ventana">
             <h1>GRAFICADOR LINEAL</h1>
             <br>
@@ -18,6 +19,33 @@
         <div class="grafico">
            <canvas width="750" height="750" id="dibujo"></canvas>
         </div>
+
+         <!-- Grafico con teclas -->
+        <div class="ventana2">
+            <h1>GRAFICADOR POR TECLAS</h1>
+            <br>
+            <p>GENERA UN GRAFICO A TRAVES DEL USO DE LAS FLECHAS DEL TECLADO</p>
+            <br>
+            <p class="letras">(A-W-S-D)</p>
+        </div> 
+        <div class="grafico2">
+            <canvas width="750" height="750" id="teclas"></canvas>
+         </div>   
+
+
+
+          <!-- Grafico con mouse -->
+        <div class="ventana3">
+            <h1>GRAFICADOR POR MOUSE</h1>
+            <br>
+            <p>GENERA UN GRAFICO A TRAVES DEL USO DEL MOUSE</p>
+        </div> 
+        <div class="grafico3">
+            <canvas width="750" height="750" id="mouse"></canvas>
+         </div>   
+
         <script src="grafico.js"></script>
+        <script src="eventos.js"></script>
+        <script src="mouseEvent.js"></script>
     </body>
 </html>
